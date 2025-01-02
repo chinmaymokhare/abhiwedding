@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijeet weds Shraddha</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .background {
+            background: url('wedding.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .btn {
+            background-color: white;
+            color: #002855;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #ff1493;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <h1>Abhijeet weds Shraddha</h1>
+        <div class="btn-container">
+            <button class="btn" onclick="window.location.href='tel:+919921250614'">Call</button>
+            <button class="btn" onclick="window.location.href='https://maps.app.goo.gl/U7gvjBPx8mMq5w4GA'">Wedding Location</button>
+            <button class="btn" onclick="window.location.href='https://maps.app.goo.gl/ou1pezbTz8B71nxe8'">Reception Location</button>
+        </div>
+    </div>
+</body>
+</html>
